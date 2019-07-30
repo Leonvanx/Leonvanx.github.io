@@ -6,6 +6,7 @@
 <title>Hello Gridea | Leonvanx</title>	
 </style>
 <link rel="stylesheet" href="https://leonvanx.github.io//styles/main.css">
+<link href="https://leonvanx.github.io//media/scripts/dark.css" rel="alternate stylesheet" type="text/css" title="dark">
 <script src="https://cdn.bootcss.com/jquery/3.4.1/jquery.min.js"></script>
 <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/KaTeX/0.10.0/katex.min.css">
 <script type='text/javascript' src='https://leonvanx.github.io//media/scripts/script.js'></script>
@@ -19,11 +20,38 @@ header {
     color: #fff;
     background-size: cover;
     background-image:url(
-			https://www.z4a.net/images/2019/07/30/matthew-kane-94147.jpg
+			https://www.z4a.net/images/2019/07/30/IMG_0427.jpg
 			);
 }
 		</style>
+<script>
+(function(){
+    if(document.cookie.replace(/(?:(?:^|.*;\s*)night\s*\=\s*([^;]*).*$)|^.*$/, "$1") === ''){
 
+        if(new Date().getHours() > 21  || new Date().getHours() <  7 ){
+
+        document.querySelector('link[title="dark"]').disabled = true;
+        document.querySelector('link[title="dark"]').disabled = false;
+        document.cookie = "night=1;path=/"
+        console.log('夜间模式开启');
+        }else{
+        document.cookie = "night=0;path=/"
+        console.log('夜间模式关闭');
+        }
+    }else{
+        var night = document.cookie.replace(/(?:(?:^|.*;\s*)night\s*\=\s*([^;]*).*$)|^.*$/, "$1") || '0';
+        if(night == '0'){
+        document.querySelector('link[title="dark"]').disabled = true;
+        console.log('夜间模式关闭');
+        }else if(night == '1'){
+        document.querySelector('link[title="dark"]').disabled = true;
+        document.querySelector('link[title="dark"]').disabled = false;
+        console.log('夜间模式开启');
+
+        }
+    }
+})();
+</script>
  	
 </head>
 <body class="post-template-default single single-post postid-70 single-format-standard">
@@ -110,7 +138,7 @@ header {
  
     
 			
-<a  href="996126548" target="_blank" ><i class="iconfont icon-qq"></i></a>
+<a  href="http://wpa.qq.com/msgrd?v=3&amp;uin=996126548&amp;site=qq&amp;menu=yes" target="_blank" ><i class="iconfont icon-qq"></i></a>
  
     
 			
