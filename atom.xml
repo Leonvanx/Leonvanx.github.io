@@ -2,7 +2,7 @@
 <feed xmlns="http://www.w3.org/2005/Atom">
     <id>https://leonvanx.github.io/</id>
     <title>Leonvanx</title>
-    <updated>2019-07-31T09:22:41.395Z</updated>
+    <updated>2019-07-31T15:01:51.326Z</updated>
     <generator>https://github.com/jpmonette/feed</generator>
     <link rel="alternate" href="https://leonvanx.github.io/"/>
     <link rel="self" href="https://leonvanx.github.io//atom.xml"/>
@@ -11,12 +11,20 @@
     <icon>https://leonvanx.github.io//favicon.ico</icon>
     <rights>All rights reserved 2019, Leonvanx</rights>
     <entry>
-        <title type="html"><![CDATA[Test]]></title>
-        <id>https://leonvanx.github.io//post/test</id>
-        <link href="https://leonvanx.github.io//post/test">
+        <title type="html"><![CDATA[成都之行]]></title>
+        <id>https://leonvanx.github.io//post/成都之行</id>
+        <link href="https://leonvanx.github.io//post/成都之行">
         </link>
-        <updated>2019-07-30T13:35:09.000Z</updated>
-        <content type="html"><![CDATA[<p>https://weibo.com/DrLvan/home</p>
+        <updated>2019-06-22T13:35:09.000Z</updated>
+        <summary type="html"><![CDATA[<p>游记<br>
+二零一九年六月十五日至二零一九年六月二十日<br>
+于成都</p>
+]]></summary>
+        <content type="html"><![CDATA[<p>游记<br>
+二零一九年六月十五日至二零一九年六月二十日<br>
+于成都</p>
+<!-- more -->
+<h2 id="二零一九年六月十五日-第一天">二零一九年六月十五日 第一天</h2>
 ]]></content>
     </entry>
     <entry>
